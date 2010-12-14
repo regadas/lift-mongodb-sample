@@ -1,0 +1,20 @@
+h1. lift-mongodb-sample
+
+Lift sample project with MongoDB.
+
+This sample is based on:
+
+* Lift 2.2-RC1 basic sample project, found in
+"lift_22_sbt":https://github.com/lift/lift_22_sbt (Scala 2.8.1 supported)
+* and, MetaMegaProtoUser provided by "ghostm":git://gist.github.com/672083.git
+although some changes where added to match the MappedPassword.scala ( added repeat
+form field).
+
+
+h2. Usage
+
+* git clone git://github.com/regadas/lift-mongodb-sample.git
+* cd lift-mongodb-sample
+* sbt
+* update
+* and test it with jetty-run
